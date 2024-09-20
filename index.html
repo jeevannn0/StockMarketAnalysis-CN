@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Stock Market Analysis</title>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+
+<body>
+    <header>Stock Market Analysis</header>
+    <main>
+        <section id="chart">
+            <h2 style="text-align: center;">Stock Trend Over Time</h2>
+            <div id="chartAndStock">
+                <div id="chartController">
+                    <div id="chart-timeline"></div>
+                    <div class="toolbar">
+                        <button id="one_month" >1 Month</button>
+                        <button id="three_months">3 Months</button>
+                        <button id="one_year" class="active">1 Year</button>
+                        <button id="five_years">5 Years</button>
+                    </div>
+                    <div id="stockMinMax">
+                        <div id="stockMin"></div>
+                        <div id="stockMax"></div>
+                    </div>
+                </div>
+                <div id="stockList"></div>
+            </div>
+            <div id="stockDetails">
+                <h2>Stock Name: <span id="stockName"></span></h2>
+                <h2>Book Value: <span id="book_Value"></span></h2>
+                <h2>Profit: <span id="profit"></span></h2>
+                <h2>Summary: <span id="stockSummary"></span></h2>
+            </div>
+        </section>
+        <div id="waiting">Loading...<div class="spinner"></div></div>
+    </main>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

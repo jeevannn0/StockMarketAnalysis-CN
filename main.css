@@ -1,0 +1,114 @@
+body {
+    background-color: #f4f4f4;  /* A light grey for better contrast */
+    color: #fefefe;               /* Dark text */
+}
+
+header {
+    background-color: rgb(156, 50, 255);  /* Header background */
+    color: white;  /* White text for contrast */
+    text-align: center; /* Center align */
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+span {
+    font-size: 20px;
+}
+
+#waiting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly translucent */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.spinner {
+    margin-left: 10px; /* Add some space for the spinner */
+}
+
+#chart-timeline {
+    width: 80vw;
+}
+
+#chartAndStock {
+    display: flex;
+    justify-content: space-between; /* Equal spacing */
+    padding: 20px;  /* Space around this section */
+}
+
+#stockList {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.stockDetailsDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 15px 0; /* Increased margin for better separation */
+}
+
+.stockDetailsDiv button {
+    background-color: rgb(156, 50, 255); /* Darker button color */
+    padding: 8px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.stockDetailsDiv button:hover {
+    background-color: rgb(156, 50, 255); /* Darker on hover */
+    color: black;
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar button {
+    background-color: rgb(156, 50, 255); /* Darker button color */
+    padding: 8px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px 10px;
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.toolbar button:hover {
+    background-color: rgb(156, 50, 255); /* Darker on hover */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+#stockMin,
+#stockMax {
+    background-color: rgb(156, 50, 255);
+    width: 450px;
+    
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#stockDetails {
+    background-color: rgb(156, 50, 255);  /* Background for stock details */
+    border-radius: 8px;
+    color: white;
+    padding: 20px;  /* Padded for improved touch */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Mild shadow for depth */
+}
+
+#one_month{
+
+}
