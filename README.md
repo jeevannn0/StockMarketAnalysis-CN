@@ -1,1 +1,1 @@
-Hosted link: https://vaibhav666-glitch.github.io/stockMarketAnalysis/
+Hosted link: https://jeevannn0.github.io/StockMarketAnalysis-CN/
